@@ -20,19 +20,44 @@
         text-decoration: none;
         color: #666;
         outline: none;
+        cursor: pointer;
       }
+
+      a:hover,
+      a:visited,
+      a:focus {
+        color: black;
+        text-decoration: none;
+        border-bottom: 1px solid black;
+      }
+
+      a:active {
+        color: #333;
+        background-color: teal;
+      }
+
+      li {
+        list-style: none;
+      }
+
+      ul {
+        display: flex;
+        justify-content: space-evenly;
+      }
+
+
     </style>
   </head>
 
   <body>
 
     <ul>
-      <li><a href="">Animals</a></li>
-      <li><a href="">Computers</a></li>
-      <li><a href="">Diversity and inclusion</a></li>
-      <li><a href="">Food</a></li>
-      <li><a href="">Medicine</a></li>
-      <li><a href="">Music</a></li>
+      <li><a href="#" target="_parent" title="Animals Page Link">Animals</a></li>
+      <li><a href="#" target="_parent" title="Computers Page Link">Computers</a></li>
+      <li><a href="#"target="_parent" title="Diversity Page Link">Diversity and inclusion</a></li>
+      <li><a href="#" target="_parent" title="Food Page Link">Food</a></li>
+      <li><a href="#" target="_parent" title="Medicine Page Link">Medicine</a></li>
+      <li><a href="#" target="_parent" title="Music Page Link">Music</a></li>
     </ul>
 
   </body>
